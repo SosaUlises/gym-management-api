@@ -3,20 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.application\\injecciondependenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|solutionrelative:sosa.gym.application\\injecciondependenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.application\\validators\\password\\resetpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|solutionrelative:sosa.gym.application\\validators\\password\\resetpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.application\\validators\\password\\forgotpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|solutionrelative:sosa.gym.application\\validators\\password\\forgotpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{478E71EC-7466-40FD-B53C-2694A4C3E65F}|Sosa.Gym.API\\Sosa.Gym.API.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{478E71EC-7466-40FD-B53C-2694A4C3E65F}|Sosa.Gym.API\\Sosa.Gym.API.csproj|solutionrelative:sosa.gym.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ulipv\\AppData\\Roaming\\Microsoft\\UserSecrets\\28443fb2-2955-40b7-974b-082ca0b0b2bb\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +22,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InjeccionDependenciaService.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\InjeccionDependenciaService.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.Application\\InjeccionDependenciaService.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\InjeccionDependenciaService.cs",
-              "RelativeToolTip": "Sosa.Gym.Application\\InjeccionDependenciaService.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAgwI0AAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T17:10:58.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResetPasswordValidator.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\Validators\\Password\\ResetPasswordValidator.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.Application\\Validators\\Password\\ResetPasswordValidator.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\Validators\\Password\\ResetPasswordValidator.cs",
-              "RelativeToolTip": "Sosa.Gym.Application\\Validators\\Password\\ResetPasswordValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T17:10:29.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ForgotPasswordValidator.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\Validators\\Password\\ForgotPasswordValidator.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.Application\\Validators\\Password\\ForgotPasswordValidator.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\Validators\\Password\\ForgotPasswordValidator.cs",
-              "RelativeToolTip": "Sosa.Gym.Application\\Validators\\Password\\ForgotPasswordValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T17:10:20.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Sosa.Gym.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T17:07:37.498Z",
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\ulipv\\AppData\\Roaming\\Microsoft\\UserSecrets\\28443fb2-2955-40b7-974b-082ca0b0b2bb\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\28443fb2-2955-40b7-974b-082ca0b0b2bb\\secrets.json",
+              "ToolTip": "C:\\Users\\ulipv\\AppData\\Roaming\\Microsoft\\UserSecrets\\28443fb2-2955-40b7-974b-082ca0b0b2bb\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\28443fb2-2955-40b7-974b-082ca0b0b2bb\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-24T17:32:33.135Z",
               "EditorCaption": ""
             }
           ]
