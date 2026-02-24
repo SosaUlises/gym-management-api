@@ -3,10 +3,9 @@ using Sosa.Gym.API;
 using Sosa.Gym.Application;
 using Sosa.Gym.Application.Exceptions;
 using Sosa.Gym.Common;
-using Sosa.Gym.External;
-using Sosa.Gym.Persistence;
-using Sosa.Gym.Persistence.DataBase;
-using Sosa.Gym.Persistence.Seed;
+using Sosa.Gym.Infraestructure;
+using Sosa.Gym.Infraestructure.DataBase;
+using Sosa.Gym.Infraestructure.Seed;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,8 +19,7 @@ builder.Services
     .AddWebApi()
     .AddCommon()
     .AddApplication()
-    .AddExternal(builder.Configuration)
-    .AddPersistence(builder.Configuration);
+    .AddInfraestructure(builder.Configuration);
 
 // CORS
 var allowedOrigins = "AllowedOrigins";
@@ -52,7 +50,7 @@ app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Sosa Gym v1");
-    c.RoutePrefix = string.Empty; 
+    c.RoutePrefix = string.Empty;
 });
 
 

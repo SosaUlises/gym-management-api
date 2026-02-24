@@ -2066,7 +2066,6 @@
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0",
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
-          "Sosa.Gym.Persistence": "1.0.0",
           "Swashbuckle.AspNetCore": "9.0.6",
           "X.PagedList": "10.5.9",
           "X.PagedList.EF": "10.5.9"
@@ -2076,6 +2075,20 @@
         },
         "runtime": {
           "bin/placeholder/Sosa.Gym.External.dll": {}
+        }
+      },
+      "Sosa.Gym.Infraestructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Sosa.Gym.Application": "1.0.0",
+          "Sosa.Gym.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sosa.Gym.Infraestructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sosa.Gym.Infraestructure.dll": {}
         }
       },
       "Sosa.Gym.Persistence/1.0.0": {
@@ -5308,6 +5321,11 @@
       "path": "../Sosa.Gym.External/Sosa.Gym.External.csproj",
       "msbuildProject": "../Sosa.Gym.External/Sosa.Gym.External.csproj"
     },
+    "Sosa.Gym.Infraestructure/1.0.0": {
+      "type": "project",
+      "path": "../Sosa.Gym.Infraestructure/Sosa.Gym.Infraestructure.csproj",
+      "msbuildProject": "../Sosa.Gym.Infraestructure/Sosa.Gym.Infraestructure.csproj"
+    },
     "Sosa.Gym.Persistence/1.0.0": {
       "type": "project",
       "path": "../Sosa.Gym.Persistence/Sosa.Gym.Persistence.csproj",
@@ -5331,6 +5349,7 @@
       "Sosa.Gym.Application >= 1.0.0",
       "Sosa.Gym.Common >= 1.0.0",
       "Sosa.Gym.External >= 1.0.0",
+      "Sosa.Gym.Infraestructure >= 1.0.0",
       "Sosa.Gym.Persistence >= 1.0.0",
       "Swashbuckle.AspNetCore >= 9.0.6",
       "X.PagedList >= 10.5.9",
@@ -5348,7 +5367,7 @@
       "projectName": "Sosa.Gym.API",
       "projectPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\Sosa.Gym.API.csproj",
       "packagesPath": "C:\\Users\\ulipv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.API\\obj\\",
+      "outputPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5377,6 +5396,9 @@
             },
             "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.External\\Sosa.Gym.External.csproj": {
               "projectPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.External\\Sosa.Gym.External.csproj"
+            },
+            "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj"
             },
             "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Persistence\\Sosa.Gym.Persistence.csproj": {
               "projectPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Persistence\\Sosa.Gym.Persistence.csproj"

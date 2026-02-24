@@ -11,7 +11,7 @@
         "projectName": "Sosa.Gym.Application",
         "projectPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\Sosa.Gym.Application.csproj",
         "packagesPath": "C:\\Users\\ulipv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Application\\obj\\",
+        "outputPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

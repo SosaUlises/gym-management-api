@@ -6,11 +6,6 @@ using Sosa.Gym.Domain.Entidades.Ejercicio;
 using Sosa.Gym.Domain.Entidades.Progreso;
 using Sosa.Gym.Domain.Entidades.Rutina;
 using Sosa.Gym.Domain.Entidades.Usuario;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sosa.Gym.Application.DataBase
 {
