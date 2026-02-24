@@ -8,6 +8,7 @@ using Sosa.Gym.Application.DataBase;
 using Sosa.Gym.Application.External;
 using Sosa.Gym.Domain.Entidades.Usuario;
 using Sosa.Gym.Infraestructure.DataBase;
+using Sosa.Gym.Infraestructure.Email;
 using Sosa.Gym.Infraestructure.GetTokenJWT;
 using System.Security.Claims;
 using System.Text;
@@ -85,9 +86,11 @@ namespace Sosa.Gym.Infraestructure
             });
 
 
-            // Servicios JWT
+            // Servicios
 
             services.AddScoped<IGetTokenJWTService, GetTokenJWTService>();
+            services.Configure<EmailSettings>(configuration.GetSection("Email"));
+            services.AddScoped<IEmailService, SmtpEmailService>();
 
             return services;
         }
