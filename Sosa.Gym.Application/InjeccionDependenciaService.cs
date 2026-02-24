@@ -49,6 +49,7 @@ using Sosa.Gym.Application.Validators.DiaRutina;
 using Sosa.Gym.Application.Validators.Ejercicio;
 using Sosa.Gym.Application.Validators.Entrenador;
 using Sosa.Gym.Application.Validators.Login;
+using Sosa.Gym.Application.Validators.Password;
 using Sosa.Gym.Application.Validators.Progreso;
 using Sosa.Gym.Application.Validators.Rutina;
 
@@ -151,6 +152,9 @@ namespace Sosa.Gym.Application
 
             services.AddScoped<IValidator<CreateEntrenadorModel>, CreateEntrenadorValidator>();
             services.AddScoped<IValidator<UpdateEntrenadorModel>, UpdateEntrenadorValidator>();
+
+            services.AddScoped<IValidator<ResetPasswordModel>, ResetPasswordValidator>();
+            services.AddScoped<IValidator<ForgotPasswordModel>, ForgotPasswordValidator>();
 
             // IA Service
             services.AddHttpClient<IGenerarRutinaPreviewService, GenerarRutinaPreviewService>(c =>

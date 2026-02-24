@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "Sosa.Gym.API.Controllers.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/v1/auth/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Sosa.Gym.Application.DataBase.Password.Commands.ForgotPassword.ForgotPasswordModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sosa.Gym.API.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/v1/auth/login",
     "HttpMethod": "POST",
@@ -41,7 +57,23 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "Sosa.Gym.Application.DataBase.Login.LoginModel",
+        "Type": "Sosa.Gym.Application.DataBase.Login.Commands.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sosa.Gym.API.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/v1/auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Sosa.Gym.Application.DataBase.Password.Commands.ResetPassword.ResetPasswordModel",
         "IsRequired": true
       }
     ],
