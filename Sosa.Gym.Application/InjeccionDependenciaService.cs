@@ -32,6 +32,7 @@ using Sosa.Gym.Application.DataBase.Entrenador.Queries.GetEntrenadorById;
 using Sosa.Gym.Application.DataBase.IA_Service.Commands.GenerarRutinaPreviewService;
 using Sosa.Gym.Application.DataBase.Login.Commands;
 using Sosa.Gym.Application.DataBase.Password.Commands.ForgotPassword;
+using Sosa.Gym.Application.DataBase.Password.Commands.ResetPassword;
 using Sosa.Gym.Application.DataBase.Progreso.Commands.CreateProgreso;
 using Sosa.Gym.Application.DataBase.Progreso.Commands.UpdateProgreso;
 using Sosa.Gym.Application.DataBase.Progreso.Queries.GetProgresoByCliente;
@@ -118,6 +119,7 @@ namespace Sosa.Gym.Application
 
             // Password
             services.AddTransient<IForgotPasswordCommand, ForgotPasswordCommand>();
+            services.AddTransient<IResetPasswordCommand, ResetPasswordCommand>();
 
 
             // Login
