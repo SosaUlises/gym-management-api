@@ -20,6 +20,8 @@ namespace Sosa.Gym.Persistence.DataBase
         }
 
         public IQueryable<UsuarioEntity> Usuarios => Users.AsNoTracking();
+        public IQueryable<IdentityRole<int>> Roles => base.Roles.AsNoTracking();
+        public IQueryable<IdentityUserRole<int>> UserRoles => base.UserRoles.AsNoTracking();
         public DbSet<EjercicioEntity> Ejercicios { get; set; }
         public DbSet<ClienteEntity> Clientes { get; set; }
         public DbSet<ProgresoEntity> Progresos { get; set; }

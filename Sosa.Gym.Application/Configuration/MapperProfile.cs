@@ -12,7 +12,6 @@ using Sosa.Gym.Application.DataBase.DiasRutina.Commands.CreateDiaRutina;
 using Sosa.Gym.Application.DataBase.Ejercicio.Commands.CreateEjercicio;
 using Sosa.Gym.Application.DataBase.Ejercicio.Queries.GetEjerciciosByDiaRutina;
 using Sosa.Gym.Application.DataBase.Entrenador.Commands.CreateEntrenador;
-using Sosa.Gym.Application.DataBase.Entrenador.Queries.GetAllEntrenadores;
 using Sosa.Gym.Application.DataBase.Progreso.Commands.CreateProgreso;
 using Sosa.Gym.Application.DataBase.Progreso.Commands.UpdateProgreso;
 using Sosa.Gym.Application.DataBase.Progreso.Queries.GetProgresoByCliente;
@@ -47,7 +46,6 @@ namespace Sosa.Gym.Application.Configuration
             CreateMap<ClienteEntity, UpdateClienteModel>().ReverseMap();
 
             CreateMap<ClienteEntity, GetAllClientesModel>()
-             .ForMember(dest => dest.UsuarioId, opt => opt.MapFrom(src => src.Usuario.Id))
              .ForMember(dest => dest.ClienteId, opt => opt.MapFrom(src => src.Id))
              .ForMember(dest => dest.Nombre, opt => opt.MapFrom(src => src.Usuario.Nombre))
              .ForMember(dest => dest.Apellido, opt => opt.MapFrom(src => src.Usuario.Apellido))
@@ -98,8 +96,6 @@ namespace Sosa.Gym.Application.Configuration
 
             // Entrenador
             CreateMap<CreateEntrenadorModel, UsuarioEntity>();
-            CreateMap<UsuarioEntity, GetEntrenadorModel>()
-                .ForMember(d => d.Activo, opt => opt.MapFrom(_ => true));
 
             // Asignacion de rutinas
 

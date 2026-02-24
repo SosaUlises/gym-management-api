@@ -13,6 +13,5 @@ namespace Sosa.Gym.Application.DataBase.Entrenador.Queries.GetAllEntrenadores
         public string Nombre { get; set; } = null!;
         public string Apellido { get; set; } = null!;
         public long Dni { get; set; }
-        public bool Activo { get; set; }
     }
 }

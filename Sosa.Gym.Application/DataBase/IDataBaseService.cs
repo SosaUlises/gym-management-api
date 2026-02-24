@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Sosa.Gym.Domain.Entidades.Cliente;
 using Sosa.Gym.Domain.Entidades.Cuota;
 using Sosa.Gym.Domain.Entidades.Ejercicio;
@@ -25,6 +26,8 @@ namespace Sosa.Gym.Application.DataBase
 
         // Identity (solo lectura para queries)
         IQueryable<UsuarioEntity> Usuarios { get; }
+        IQueryable<IdentityRole<int>> Roles { get; }
+        IQueryable<IdentityUserRole<int>> UserRoles { get; }
 
         Task<bool> SaveAsync();
     }
