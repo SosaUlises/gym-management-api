@@ -41,7 +41,7 @@ namespace Sosa.Gym.Application.DataBase.Cliente.Commands.UpdateCliente
                 return ResponseApiService.Response(StatusCodes.Status404NotFound, "Cliente no encontrado");
 
 
-            if (!esAdmin && cliente.UsuarioId != userIdLogueado)
+            if (!esAdmin && cliente.Id != userIdLogueado)
             {
                 return ResponseApiService.Response(
                     StatusCodes.Status403Forbidden,
@@ -49,7 +49,7 @@ namespace Sosa.Gym.Application.DataBase.Cliente.Commands.UpdateCliente
             }
 
 
-            var usuario = await _userManager.FindByIdAsync(cliente.UsuarioId.ToString());
+            var usuario = await _userManager.FindByIdAsync(cliente.Id.ToString());
             if (usuario == null)
                 return ResponseApiService.Response(StatusCodes.Status404NotFound, "Usuario no encontrado");
 
@@ -140,7 +140,7 @@ namespace Sosa.Gym.Application.DataBase.Cliente.Commands.UpdateCliente
         int userIdLogueado)
         {
             var cliente = await _dataBaseService.Clientes
-                .FirstOrDefaultAsync(c => c.UsuarioId == userIdLogueado);
+                .FirstOrDefaultAsync(c => c.Id == userIdLogueado);
 
             if (cliente == null)
             {

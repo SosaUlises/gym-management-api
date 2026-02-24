@@ -28,7 +28,7 @@ namespace Sosa.Gym.Application.DataBase.AsignarRutina.Queries.GetRutinaAsignadaD
                 return ResponseApiService.Response(StatusCodes.Status400BadRequest, "Parámetros inválidos");
 
             var clienteId = await _db.Clientes
-                .Where(c => c.UsuarioId == userId)
+                .Where(c => c.Id == userId)
                 .Select(c => c.Id)
                 .FirstOrDefaultAsync();
 

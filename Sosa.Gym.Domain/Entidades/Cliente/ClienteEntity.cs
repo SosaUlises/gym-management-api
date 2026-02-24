@@ -13,7 +13,6 @@ namespace Sosa.Gym.Domain.Entidades.Cliente
     public class ClienteEntity
     {
         public int Id { get; set; }
-        public int UsuarioId { get; set; }
         public UsuarioEntity Usuario { get; set; }
         public int Edad { get; set; }
         public decimal Altura { get; set; }

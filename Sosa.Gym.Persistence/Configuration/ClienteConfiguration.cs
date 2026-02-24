@@ -26,7 +26,7 @@ namespace Sosa.Gym.Persistence.Configuration
 
             entityBuilder.HasOne(x => x.Usuario)
                 .WithOne(x => x.Cliente)
-                .HasForeignKey<ClienteEntity>(x => x.UsuarioId);
+                .HasForeignKey<ClienteEntity>(x => x.Id);
 
             entityBuilder.HasMany(x => x.Progresos)
                 .WithOne(x => x.Cliente)

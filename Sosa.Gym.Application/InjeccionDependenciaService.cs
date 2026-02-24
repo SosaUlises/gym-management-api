@@ -41,13 +41,11 @@ using Sosa.Gym.Application.DataBase.Rutina.Queries.GetAsignacionesAdminByRutinaI
 using Sosa.Gym.Application.DataBase.Rutina.Queries.GetRutinaAdmin;
 using Sosa.Gym.Application.DataBase.Rutina.Queries.GetRutinaDetalleAdmin;
 using Sosa.Gym.Application.DataBase.Rutina.Queries.GetRutinasAsignadasAdminByCliente;
-using Sosa.Gym.Application.DataBase.Usuario.Queries.GetAllUsuarios;
-using Sosa.Gym.Application.DataBase.Usuario.Queries.GetUsuarioByDni;
-using Sosa.Gym.Application.DataBase.Usuario.Queries.GetUsuarioById;
 using Sosa.Gym.Application.Validators.Cliente;
 using Sosa.Gym.Application.Validators.Cuota;
 using Sosa.Gym.Application.Validators.DiaRutina;
 using Sosa.Gym.Application.Validators.Ejercicio;
+using Sosa.Gym.Application.Validators.Entrenador;
 using Sosa.Gym.Application.Validators.Login;
 using Sosa.Gym.Application.Validators.Progreso;
 using Sosa.Gym.Application.Validators.Rutina;
@@ -60,11 +58,6 @@ namespace Sosa.Gym.Application
         {
 
             services.AddAutoMapper(typeof(MapperProfile).Assembly);
-
-            // Usuarios
-            services.AddTransient<IGetUsuarioByIdQuery, GetUsuarioByIdQuery>();
-            services.AddTransient<IGetAllUsuariosQuery, GetAllUsuariosQuery>();
-            services.AddTransient<IGetUsuarioByDniQuery, GetUsuarioByDniQuery>();
 
             // Clientes
             services.AddTransient<ICreateClienteCommand, CreateClienteCommand>();
@@ -148,6 +141,9 @@ namespace Sosa.Gym.Application
             services.AddScoped<IValidator<CreateCuotaModel>, CreateCuotaValidator>();
             services.AddScoped<IValidator<GenerarCuotasModel>, GenerarCuotaValidator>();
             services.AddScoped<IValidator<PagarCuotaModel>, PagarCuotaValidator>();
+
+            services.AddScoped<IValidator<CreateEntrenadorModel>, CreateEntrenadorValidator>();
+            services.AddScoped<IValidator<UpdateEntrenadorModel>, UpdateEntrenadorValidator>();
 
             // IA Service
             services.AddHttpClient<IGenerarRutinaPreviewService, GenerarRutinaPreviewService>(c =>

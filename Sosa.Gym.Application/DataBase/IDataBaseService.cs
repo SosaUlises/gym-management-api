@@ -19,10 +19,12 @@ namespace Sosa.Gym.Application.DataBase
         DbSet<ProgresoEntity> Progresos { get; set; }
         DbSet<DiasRutinaEntity> DiasRutinas { get; set; }
         DbSet<RutinaEntity> Rutinas { get; set; }
-        DbSet<UsuarioEntity> Usuarios { get; set; }
         DbSet<ClienteEntity> Clientes { get; set; }
         DbSet<CuotaEntity> Cuotas { get; set; }
         DbSet<RutinaAsignadaEntity> RutinasAsignadas { get; set; }
+
+        // Identity (solo lectura para queries)
+        IQueryable<UsuarioEntity> Usuarios { get; }
 
         Task<bool> SaveAsync();
     }

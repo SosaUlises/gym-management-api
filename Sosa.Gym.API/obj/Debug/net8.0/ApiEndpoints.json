@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "Sosa.Gym.API.Controllers.AccesoController",
+    "Method": "ValidarDni",
+    "RelativePath": "api/v1/accesos/validar-dni/{dni}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sosa.Gym.API.Controllers.RutinaAiController",
+    "Method": "Preview",
+    "RelativePath": "api/v1/ai/rutinas/preview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Sosa.Gym.Application.DataBase.IA_Service.Commands.GenerarRutinaPreviewService.GenerarRutinaPreviewRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Sosa.Gym.API.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/v1/auth/login",
@@ -186,8 +218,8 @@
   },
   {
     "ContainingType": "Sosa.Gym.API.Controllers.CuotaController",
-    "Method": "Pagar",
-    "RelativePath": "api/v1/cuotas/{cuotaId}/pagos",
+    "Method": "RegistrarPago",
+    "RelativePath": "api/v1/cuotas/{cuotaId}/registrar-pago",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -338,6 +370,112 @@
       {
         "Name": "ejercicioId",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sosa.Gym.API.Controllers.EntrenadorController",
+    "Method": "Create",
+    "RelativePath": "api/v1/entrenadores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Sosa.Gym.Application.DataBase.Entrenador.Commands.CreateEntrenador.CreateEntrenadorModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sosa.Gym.API.Controllers.EntrenadorController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/entrenadores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sosa.Gym.API.Controllers.EntrenadorController",
+    "Method": "Update",
+    "RelativePath": "api/v1/entrenadores/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "Sosa.Gym.Application.DataBase.Entrenador.Commands.UpdateEntrenador.UpdateEntrenadorModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sosa.Gym.API.Controllers.EntrenadorController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/entrenadores/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sosa.Gym.API.Controllers.EntrenadorController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/entrenadores/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sosa.Gym.API.Controllers.EntrenadorController",
+    "Method": "GetByDni",
+    "RelativePath": "api/v1/entrenadores/dni/{dni}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.Int64",
         "IsRequired": true
       }
     ],
@@ -580,59 +718,6 @@
       {
         "Name": "model",
         "Type": "Sosa.Gym.Application.DataBase.DiasRutina.Commands.CreateDiaRutina.CreateDiaRutinaModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Sosa.Gym.API.Controllers.UsuarioController",
-    "Method": "GetAll",
-    "RelativePath": "api/v1/usuarios",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "pageNumber",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "pageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Sosa.Gym.API.Controllers.UsuarioController",
-    "Method": "GetById",
-    "RelativePath": "api/v1/usuarios/{userId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Sosa.Gym.API.Controllers.UsuarioController",
-    "Method": "GetByDni",
-    "RelativePath": "api/v1/usuarios/dni/{dni}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dni",
-        "Type": "System.Int64",
         "IsRequired": true
       }
     ],

@@ -5310,11 +5310,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\Sosa.Gym.External\\Sosa.Gym.External.csproj",
+      "projectUniqueName": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.External\\Sosa.Gym.External.csproj",
       "projectName": "Sosa.Gym.External",
-      "projectPath": "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\Sosa.Gym.External\\Sosa.Gym.External.csproj",
+      "projectPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.External\\Sosa.Gym.External.csproj",
       "packagesPath": "C:\\Users\\ulipv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\Sosa.Gym.External\\obj\\",
+      "outputPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.External\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5335,8 +5335,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\Sosa.Gym.Persistence\\Sosa.Gym.Persistence.csproj": {
-              "projectPath": "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\Sosa.Gym.Persistence\\Sosa.Gym.Persistence.csproj"
+            "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Persistence\\Sosa.Gym.Persistence.csproj": {
+              "projectPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Persistence\\Sosa.Gym.Persistence.csproj"
             }
           }
         }

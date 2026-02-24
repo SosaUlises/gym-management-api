@@ -19,12 +19,12 @@ namespace Sosa.Gym.Persistence.DataBase
 
         }
 
+        public IQueryable<UsuarioEntity> Usuarios => Users.AsNoTracking();
         public DbSet<EjercicioEntity> Ejercicios { get; set; }
         public DbSet<ClienteEntity> Clientes { get; set; }
         public DbSet<ProgresoEntity> Progresos { get; set; }
         public DbSet<DiasRutinaEntity> DiasRutinas { get; set; }
         public DbSet<RutinaEntity> Rutinas { get; set; }
-        public DbSet<UsuarioEntity> Usuarios { get; set; }
         public DbSet<CuotaEntity> Cuotas { get; set; }
         public DbSet<RutinaAsignadaEntity> RutinasAsignadas { get; set; }
 
@@ -43,7 +43,6 @@ namespace Sosa.Gym.Persistence.DataBase
 
         private void EntityConfiguration(ModelBuilder modelBuilder)
         {
-            new UsuarioConfiguration(modelBuilder.Entity<UsuarioEntity>());
             new ClienteConfiguration(modelBuilder.Entity<ClienteEntity>());
             new RutinaConfiguration(modelBuilder.Entity<RutinaEntity>());
             new ProgresoConfiguration(modelBuilder.Entity<ProgresoEntity>());

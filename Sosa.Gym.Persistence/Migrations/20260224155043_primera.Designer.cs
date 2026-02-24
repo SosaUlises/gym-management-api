@@ -12,8 +12,8 @@ using Sosa.Gym.Persistence.DataBase;
 namespace Sosa.Gym.Persistence.Migrations
 {
     [DbContext(typeof(DataBaseService))]
-    [Migration("20260205172754_cambios")]
-    partial class cambios
+    [Migration("20260224155043_primera")]
+    partial class primera
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -160,10 +160,7 @@ namespace Sosa.Gym.Persistence.Migrations
             modelBuilder.Entity("Sosa.Gym.Domain.Entidades.Cliente.ClienteEntity", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<decimal>("Altura")
                         .HasColumnType("numeric");
@@ -180,13 +177,7 @@ namespace Sosa.Gym.Persistence.Migrations
                     b.Property<decimal>("Peso")
                         .HasColumnType("numeric");
 
-                    b.Property<int>("UsuarioId")
-                        .HasColumnType("integer");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UsuarioId")
-                        .IsUnique();
 
                     b.ToTable("Clientes", (string)null);
                 });
@@ -215,6 +206,9 @@ namespace Sosa.Gym.Persistence.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<DateTime?>("FechaPago")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("FechaVencimiento")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<int>("Mes")
@@ -446,9 +440,6 @@ namespace Sosa.Gym.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Dni")
-                        .IsUnique();
-
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
 
@@ -456,7 +447,7 @@ namespace Sosa.Gym.Persistence.Migrations
                         .IsUnique()
                         .HasDatabaseName("UserNameIndex");
 
-                    b.ToTable("Usuarios", (string)null);
+                    b.ToTable("AspNetUsers", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -514,7 +505,7 @@ namespace Sosa.Gym.Persistence.Migrations
                 {
                     b.HasOne("Sosa.Gym.Domain.Entidades.Usuario.UsuarioEntity", "Usuario")
                         .WithOne("Cliente")
-                        .HasForeignKey("Sosa.Gym.Domain.Entidades.Cliente.ClienteEntity", "UsuarioId")
+                        .HasForeignKey("Sosa.Gym.Domain.Entidades.Cliente.ClienteEntity", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

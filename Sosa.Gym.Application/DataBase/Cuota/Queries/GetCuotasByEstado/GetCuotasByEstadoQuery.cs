@@ -35,7 +35,7 @@ namespace Sosa.Gym.Application.DataBase.Cuota.Queries.GetCuotasPendientes
 
             if (!esAdmin)
             {
-                query = query.Where(c => c.Cliente.UsuarioId == userId);
+                query = query.Where(c => c.Cliente.Id == userId);
             }
 
             var cuotas = await query

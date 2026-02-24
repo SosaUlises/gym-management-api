@@ -29,7 +29,7 @@ namespace Sosa.Gym.Application.DataBase.Cliente.Commands.DeleteCliente
             if (cliente == null)
                 return ResponseApiService.Response(StatusCodes.Status404NotFound, "Cliente no encontrado");
 
-            var user = await _userManager.FindByIdAsync(cliente.UsuarioId.ToString());
+            var user = await _userManager.FindByIdAsync(cliente.Id.ToString());
             if (user == null)
                 return ResponseApiService.Response(StatusCodes.Status404NotFound, "Usuario no encontrado");
 
