@@ -5,7 +5,7 @@ using Sosa.Gym.Application.Features;
 using Sosa.Gym.Domain.Entidades.Usuario;
 using Sosa.Gym.Domain.Models;
 
-namespace Sosa.Gym.Application.DataBase.Login
+namespace Sosa.Gym.Application.DataBase.Login.Commands
 {
     public class LoginCommand : ILoginCommand
     {

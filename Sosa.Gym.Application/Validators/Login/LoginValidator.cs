@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using Sosa.Gym.Application.DataBase.Login;
+using Sosa.Gym.Application.DataBase.Login.Commands;
 using System;
 using System.Collections.Generic;
 using System.Linq;

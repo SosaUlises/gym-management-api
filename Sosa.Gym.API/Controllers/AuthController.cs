@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Sosa.Gym.Application.DataBase.Login;
+using Sosa.Gym.Application.DataBase.Login.Commands;
 using Sosa.Gym.Application.Exceptions;
 using Sosa.Gym.Application.Features;
 

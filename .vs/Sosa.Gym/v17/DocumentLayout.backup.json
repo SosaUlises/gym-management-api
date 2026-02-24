@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{478E71EC-7466-40FD-B53C-2694A4C3E65F}|Sosa.Gym.API\\Sosa.Gym.API.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{478E71EC-7466-40FD-B53C-2694A4C3E65F}|Sosa.Gym.API\\Sosa.Gym.API.csproj|solutionrelative:sosa.gym.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F1F1F7D-7AC1-4E26-86C5-55F51F8B7779}|Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.infraestructure\\injecciondependenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1F1F7D-7AC1-4E26-86C5-55F51F8B7779}|Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj|solutionrelative:sosa.gym.infraestructure\\injecciondependenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.application\\injecciondependenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|solutionrelative:sosa.gym.application\\injecciondependenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F1F1F7D-7AC1-4E26-86C5-55F51F8B7779}|Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.infraestructure\\email\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1F1F7D-7AC1-4E26-86C5-55F51F8B7779}|Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj|solutionrelative:sosa.gym.infraestructure\\email\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.application\\external\\igettokenjwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|solutionrelative:sosa.gym.application\\external\\igettokenjwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F1F1F7D-7AC1-4E26-86C5-55F51F8B7779}|Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.infraestructure\\email\\smtpemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1F1F7D-7AC1-4E26-86C5-55F51F8B7779}|Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj|solutionrelative:sosa.gym.infraestructure\\email\\smtpemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.application\\database\\idatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|solutionrelative:sosa.gym.application\\database\\idatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F1F1F7D-7AC1-4E26-86C5-55F51F8B7779}|Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.infraestructure\\seed\\identitydataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F1F1F7D-7AC1-4E26-86C5-55F51F8B7779}|Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj|solutionrelative:sosa.gym.infraestructure\\seed\\identitydataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F1F1F7D-7AC1-4E26-86C5-55F51F8B7779}|Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.infraestructure\\database\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F1F1F7D-7AC1-4E26-86C5-55F51F8B7779}|Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj|solutionrelative:sosa.gym.infraestructure\\database\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{478E71EC-7466-40FD-B53C-2694A4C3E65F}|Sosa.Gym.API\\Sosa.Gym.API.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{478E71EC-7466-40FD-B53C-2694A4C3E65F}|Sosa.Gym.API\\Sosa.Gym.API.csproj|solutionrelative:sosa.gym.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{478E71EC-7466-40FD-B53C-2694A4C3E65F}|Sosa.Gym.API\\Sosa.Gym.API.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.api\\injecciondependenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{478E71EC-7466-40FD-B53C-2694A4C3E65F}|Sosa.Gym.API\\Sosa.Gym.API.csproj|solutionrelative:sosa.gym.api\\injecciondependenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.application\\external\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|solutionrelative:sosa.gym.application\\external\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 422,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,119 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InjeccionDependenciaService.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\InjeccionDependenciaService.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.Application\\InjeccionDependenciaService.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\InjeccionDependenciaService.cs",
-              "RelativeToolTip": "Sosa.Gym.Application\\InjeccionDependenciaService.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:46:40.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGetTokenJWTService.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\External\\IGetTokenJWTService.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.Application\\External\\IGetTokenJWTService.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\External\\IGetTokenJWTService.cs",
-              "RelativeToolTip": "Sosa.Gym.Application\\External\\IGetTokenJWTService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:46:39.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InjeccionDependenciaService.cs",
               "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\InjeccionDependenciaService.cs",
               "RelativeDocumentMoniker": "Sosa.Gym.Infraestructure\\InjeccionDependenciaService.cs",
               "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\InjeccionDependenciaService.cs",
               "RelativeToolTip": "Sosa.Gym.Infraestructure\\InjeccionDependenciaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:46:16.115Z",
+              "WhenOpened": "2026-02-24T16:57:34.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\Program.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.API\\Program.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\Program.cs",
-              "RelativeToolTip": "Sosa.Gym.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\External\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Sosa.Gym.Application\\External\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\External\\IEmailService.cs",
+              "RelativeToolTip": "Sosa.Gym.Application\\External\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:45:36.834Z",
+              "WhenOpened": "2026-02-24T16:57:06.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IDataBaseService.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\DataBase\\IDataBaseService.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.Application\\DataBase\\IDataBaseService.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\DataBase\\IDataBaseService.cs",
-              "RelativeToolTip": "Sosa.Gym.Application\\DataBase\\IDataBaseService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SmtpEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Email\\SmtpEmailService.cs",
+              "RelativeDocumentMoniker": "Sosa.Gym.Infraestructure\\Email\\SmtpEmailService.cs",
+              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Email\\SmtpEmailService.cs",
+              "RelativeToolTip": "Sosa.Gym.Infraestructure\\Email\\SmtpEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:46:34.451Z",
+              "WhenOpened": "2026-02-24T16:55:31.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IdentityDataSeed.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Seed\\IdentityDataSeed.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.Infraestructure\\Seed\\IdentityDataSeed.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Seed\\IdentityDataSeed.cs",
-              "RelativeToolTip": "Sosa.Gym.Infraestructure\\Seed\\IdentityDataSeed.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwAwAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Email\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Sosa.Gym.Infraestructure\\Email\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Email\\EmailSettings.cs",
+              "RelativeToolTip": "Sosa.Gym.Infraestructure\\Email\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:46:04.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DataBaseService.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\DataBase\\DataBaseService.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.Infraestructure\\DataBase\\DataBaseService.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\DataBase\\DataBaseService.cs",
-              "RelativeToolTip": "Sosa.Gym.Infraestructure\\DataBase\\DataBaseService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:45:52.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Sosa.Gym.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\appsettings.json",
-              "RelativeToolTip": "Sosa.Gym.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-24T16:45:46.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InjeccionDependenciaService.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\InjeccionDependenciaService.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.API\\InjeccionDependenciaService.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\InjeccionDependenciaService.cs",
-              "RelativeToolTip": "Sosa.Gym.API\\InjeccionDependenciaService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:45:34.274Z",
+              "WhenOpened": "2026-02-24T16:55:20.493Z",
               "EditorCaption": ""
             }
           ]
