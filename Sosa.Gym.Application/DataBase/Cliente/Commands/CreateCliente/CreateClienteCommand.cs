@@ -62,7 +62,7 @@ namespace Sosa.Gym.Application.DataBase.Cliente.Commands.CreateCliente
             try
             {
                 var cliente = _mapper.Map<ClienteEntity>(model);
-                cliente.UsuarioId = usuario.Id;
+                cliente.Id = usuario.Id;
                 cliente.FechaRegistro = DateTime.UtcNow;
 
                 _dataBaseService.Clientes.Add(cliente);

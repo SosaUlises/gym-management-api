@@ -40,6 +40,7 @@
     <ProjectReference Include="..\Sosa.Gym.Application\Sosa.Gym.Application.csproj" />
     <ProjectReference Include="..\Sosa.Gym.Common\Sosa.Gym.Common.csproj" />
     <ProjectReference Include="..\Sosa.Gym.External\Sosa.Gym.External.csproj" />
+    <ProjectReference Include="..\Sosa.Gym.Infraestructure\Sosa.Gym.Infraestructure.csproj" />
     <ProjectReference Include="..\Sosa.Gym.Persistence\Sosa.Gym.Persistence.csproj" />
   </ItemGroup>
 

@@ -29,7 +29,7 @@ namespace Sosa.Gym.Application.DataBase.AsignarRutina.Queries.GetRutinaAsignada
                 return ResponseApiService.Response(StatusCodes.Status400BadRequest, "UserId inválido");
 
             var clienteId = await _db.Clientes
-                .Where(c => c.UsuarioId == userId)
+                .Where(c => c.Id == userId)
                 .Select(c => c.Id)
                 .FirstOrDefaultAsync();
 

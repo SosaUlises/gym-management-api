@@ -5178,11 +5178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\Sosa.Gym.Domain\\Sosa.Gym.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Domain\\Sosa.Gym.Domain.csproj",
       "projectName": "Sosa.Gym.Domain",
-      "projectPath": "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\Sosa.Gym.Domain\\Sosa.Gym.Domain.csproj",
+      "projectPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Domain\\Sosa.Gym.Domain.csproj",
       "packagesPath": "C:\\Users\\ulipv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\Sosa.Gym.Domain\\obj\\",
+      "outputPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

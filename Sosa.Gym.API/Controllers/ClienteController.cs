@@ -112,22 +112,23 @@ namespace Sosa.Gym.API.Controllers
             return StatusCode(result.StatusCode, result);
         }
 
+
         [Authorize(Roles = "Administrador,Entrenador")]
         [HttpGet]
         public async Task<IActionResult> GetAll(
-            [FromServices] IGetAllClientesQuery getAllClientesQuery,
-            [FromQuery] int pageNumber = 1,
-            [FromQuery] int pageSize = 10)
+             [FromServices] IGetAllClientesQuery query,
+             [FromQuery] int pageNumber = 1,
+             [FromQuery] int pageSize = 10,
+             [FromQuery] string? search = null)
         {
             if (pageNumber <= 0) pageNumber = 1;
             if (pageSize <= 0) pageSize = 10;
             if (pageSize > 100) pageSize = 100;
 
-            var data = await getAllClientesQuery.Execute(pageNumber, pageSize);
-
-            return StatusCode(StatusCodes.Status200OK,
-                ResponseApiService.Response(StatusCodes.Status200OK, data));
+            var result = await query.Execute(pageNumber, pageSize, search);
+            return StatusCode(result.StatusCode, result);
         }
+
 
         [Authorize] 
         [HttpGet("me")]

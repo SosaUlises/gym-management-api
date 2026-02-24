@@ -30,8 +30,4 @@
     <PackageReference Include="X.PagedList.EF" Version="10.5.9" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Sosa.Gym.Persistence\Sosa.Gym.Persistence.csproj" />
-  </ItemGroup>
-
 </Project>

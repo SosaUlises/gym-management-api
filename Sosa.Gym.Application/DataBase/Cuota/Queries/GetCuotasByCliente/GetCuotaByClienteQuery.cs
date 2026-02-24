@@ -37,7 +37,7 @@ namespace Sosa.Gym.Application.DataBase.Cuota.Queries.GetCuotaByCliente
             if (cliente == null)
                 return ResponseApiService.Response(StatusCodes.Status404NotFound, "Cliente no encontrado");
 
-            if (!esAdmin && cliente.UsuarioId != userId)
+            if (!esAdmin && cliente.Id != userId)
             {
                 return ResponseApiService.Response(
                     StatusCodes.Status403Forbidden,

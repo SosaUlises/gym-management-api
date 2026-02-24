@@ -12,16 +12,12 @@ using Sosa.Gym.Application.DataBase.DiasRutina.Commands.CreateDiaRutina;
 using Sosa.Gym.Application.DataBase.Ejercicio.Commands.CreateEjercicio;
 using Sosa.Gym.Application.DataBase.Ejercicio.Queries.GetEjerciciosByDiaRutina;
 using Sosa.Gym.Application.DataBase.Entrenador.Commands.CreateEntrenador;
-using Sosa.Gym.Application.DataBase.Entrenador.Queries.GetAllEntrenadores;
 using Sosa.Gym.Application.DataBase.Progreso.Commands.CreateProgreso;
 using Sosa.Gym.Application.DataBase.Progreso.Commands.UpdateProgreso;
 using Sosa.Gym.Application.DataBase.Progreso.Queries.GetProgresoByCliente;
 using Sosa.Gym.Application.DataBase.Rutina.Commands.CreateRutina;
 using Sosa.Gym.Application.DataBase.Rutina.Commands.UpdateRutina;
 using Sosa.Gym.Application.DataBase.Rutina.Queries.GetRutinaDetalleAdmin;
-using Sosa.Gym.Application.DataBase.Usuario.Queries.GetAllUsuarios;
-using Sosa.Gym.Application.DataBase.Usuario.Queries.GetUsuarioByDni;
-using Sosa.Gym.Application.DataBase.Usuario.Queries.GetUsuarioById;
 using Sosa.Gym.Domain.Entidades.Cliente;
 using Sosa.Gym.Domain.Entidades.Cuota;
 using Sosa.Gym.Domain.Entidades.Ejercicio;
@@ -36,10 +32,6 @@ namespace Sosa.Gym.Application.Configuration
         public MapperProfile()
         {
 
-            // Usuarios
-            CreateMap<UsuarioEntity, GetAllUsuariosModel>().ReverseMap();
-            CreateMap<UsuarioEntity, GetUsuarioByIdModel>().ReverseMap();
-            CreateMap<UsuarioEntity, GetUsuarioByDniModel>().ReverseMap();
 
             // Clientes
             CreateMap<CreateClienteModel, UsuarioEntity>()
@@ -47,7 +39,6 @@ namespace Sosa.Gym.Application.Configuration
 
             CreateMap<CreateClienteModel, ClienteEntity>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore())
-                .ForMember(dest => dest.UsuarioId, opt => opt.Ignore())
                 .ForMember(dest => dest.Usuario, opt => opt.Ignore())
                 .ForMember(dest => dest.FechaRegistro, opt => opt.Ignore());
 
@@ -55,7 +46,6 @@ namespace Sosa.Gym.Application.Configuration
             CreateMap<ClienteEntity, UpdateClienteModel>().ReverseMap();
 
             CreateMap<ClienteEntity, GetAllClientesModel>()
-             .ForMember(dest => dest.UsuarioId, opt => opt.MapFrom(src => src.Usuario.Id))
              .ForMember(dest => dest.ClienteId, opt => opt.MapFrom(src => src.Id))
              .ForMember(dest => dest.Nombre, opt => opt.MapFrom(src => src.Usuario.Nombre))
              .ForMember(dest => dest.Apellido, opt => opt.MapFrom(src => src.Usuario.Apellido))
@@ -106,8 +96,6 @@ namespace Sosa.Gym.Application.Configuration
 
             // Entrenador
             CreateMap<CreateEntrenadorModel, UsuarioEntity>();
-            CreateMap<UsuarioEntity, GetEntrenadorModel>()
-                .ForMember(d => d.Activo, opt => opt.MapFrom(_ => true)); 
 
             // Asignacion de rutinas
 

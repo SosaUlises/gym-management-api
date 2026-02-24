@@ -23,6 +23,7 @@
           "Sosa.Gym.Application": "1.0.0",
           "Sosa.Gym.Common": "1.0.0",
           "Sosa.Gym.External": "1.0.0",
+          "Sosa.Gym.Infraestructure": "1.0.0",
           "Sosa.Gym.Persistence": "1.0.0",
           "Swashbuckle.AspNetCore": "9.0.6",
           "X.PagedList": "10.5.9",
@@ -1253,13 +1254,24 @@
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0",
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
-          "Sosa.Gym.Persistence": "1.0.0",
           "Swashbuckle.AspNetCore": "9.0.6",
           "X.PagedList": "10.5.9",
           "X.PagedList.EF": "10.5.9"
         },
         "runtime": {
           "Sosa.Gym.External.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Sosa.Gym.Infraestructure/1.0.0": {
+        "dependencies": {
+          "Sosa.Gym.Application": "1.0.0",
+          "Sosa.Gym.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Sosa.Gym.Infraestructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -2042,6 +2054,11 @@
       "sha512": ""
     },
     "Sosa.Gym.External/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sosa.Gym.Infraestructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

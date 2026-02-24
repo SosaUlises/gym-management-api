@@ -26,7 +26,7 @@ namespace Sosa.Gym.Application.DataBase.Cliente.Queries.GetClienteByDni
         {
             var cliente = await _dataBaseService.Clientes
                 .Include(c => c.Usuario)
-                .FirstOrDefaultAsync(c => c.UsuarioId == userId);
+                .FirstOrDefaultAsync(c => c.Id == userId);
 
             if (cliente == null)
             {

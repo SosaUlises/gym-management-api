@@ -30,7 +30,7 @@ namespace Sosa.Gym.Application.DataBase.Progreso.Queries.GetProgresoByCliente
         public async Task<BaseResponseModel> Execute(int userId)
         {
             var clienteId = await _dataBaseService.Clientes
-                .Where(c => c.UsuarioId == userId)
+                .Where(c => c.Id == userId)
                 .Select(c => c.Id)
                 .FirstOrDefaultAsync();
 

@@ -24,7 +24,7 @@ namespace Sosa.Gym.Application.DataBase.Progreso.Commands.CreateProgreso
         public async Task<BaseResponseModel> Execute(CreateProgresoModel model, int userId)
         {
             var clienteId = await _dataBaseService.Clientes
-                .Where(c => c.UsuarioId == userId)
+                .Where(c => c.Id == userId)
                 .Select(c => c.Id)
                 .FirstOrDefaultAsync();
 

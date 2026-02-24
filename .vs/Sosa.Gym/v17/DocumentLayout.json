@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\",
+  "WorkspaceRootPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|c:\\users\\ulipv\\source\\repos\\sosa.gym\\sosa.gym.application\\database\\ia service\\commands\\generarrutinapreviewservice\\generarrutinapreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|solutionrelative:sosa.gym.application\\database\\ia service\\commands\\generarrutinapreviewservice\\generarrutinapreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.application\\injecciondependenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|solutionrelative:sosa.gym.application\\injecciondependenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.application\\validators\\password\\resetpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|solutionrelative:sosa.gym.application\\validators\\password\\resetpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.application\\validators\\password\\forgotpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77333ED-2B79-442D-952F-B2B3862883DD}|Sosa.Gym.Application\\Sosa.Gym.Application.csproj|solutionrelative:sosa.gym.application\\validators\\password\\forgotpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478E71EC-7466-40FD-B53C-2694A4C3E65F}|Sosa.Gym.API\\Sosa.Gym.API.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478E71EC-7466-40FD-B53C-2694A4C3E65F}|Sosa.Gym.API\\Sosa.Gym.API.csproj|solutionrelative:sosa.gym.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GenerarRutinaPreviewService.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\Sosa.Gym.Application\\DataBase\\IA Service\\Commands\\GenerarRutinaPreviewService\\GenerarRutinaPreviewService.cs",
-              "RelativeDocumentMoniker": "Sosa.Gym.Application\\DataBase\\IA Service\\Commands\\GenerarRutinaPreviewService\\GenerarRutinaPreviewService.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\Sosa.Gym.Application\\DataBase\\IA Service\\Commands\\GenerarRutinaPreviewService\\GenerarRutinaPreviewService.cs",
-              "RelativeToolTip": "Sosa.Gym.Application\\DataBase\\IA Service\\Commands\\GenerarRutinaPreviewService\\GenerarRutinaPreviewService.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAowKQAAAAAAAAAAAAAAA==",
+              "Title": "InjeccionDependenciaService.cs",
+              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\InjeccionDependenciaService.cs",
+              "RelativeDocumentMoniker": "Sosa.Gym.Application\\InjeccionDependenciaService.cs",
+              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\InjeccionDependenciaService.cs",
+              "RelativeToolTip": "Sosa.Gym.Application\\InjeccionDependenciaService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAgwI0AAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T23:28:05.294Z",
+              "WhenOpened": "2026-02-24T17:10:58.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResetPasswordValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\Validators\\Password\\ResetPasswordValidator.cs",
+              "RelativeDocumentMoniker": "Sosa.Gym.Application\\Validators\\Password\\ResetPasswordValidator.cs",
+              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\Validators\\Password\\ResetPasswordValidator.cs",
+              "RelativeToolTip": "Sosa.Gym.Application\\Validators\\Password\\ResetPasswordValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:10:29.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPasswordValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\Validators\\Password\\ForgotPasswordValidator.cs",
+              "RelativeDocumentMoniker": "Sosa.Gym.Application\\Validators\\Password\\ForgotPasswordValidator.cs",
+              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\Validators\\Password\\ForgotPasswordValidator.cs",
+              "RelativeToolTip": "Sosa.Gym.Application\\Validators\\Password\\ForgotPasswordValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:10:20.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Sosa.Gym.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Sosa.Gym.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:07:37.498Z",
               "EditorCaption": ""
             }
           ]

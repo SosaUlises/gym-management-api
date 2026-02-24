@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cOrYoi/MWWg=",
+  "dgSpecHash": "uaVqd/g1mC8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ulipv\\source\\repos\\Sosa.Gym\\Sosa.Gym.Persistence\\Sosa.Gym.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Persistence\\Sosa.Gym.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ulipv\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ulipv\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

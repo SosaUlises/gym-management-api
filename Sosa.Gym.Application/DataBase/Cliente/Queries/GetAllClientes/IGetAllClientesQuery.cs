@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using X.PagedList;
+﻿using Sosa.Gym.Domain.Models;
 
 namespace Sosa.Gym.Application.DataBase.Cliente.Queries.GetAllClientes
 {
     public interface IGetAllClientesQuery
     {
-        Task<IPagedList<GetAllClientesModel>> Execute(int pageNumber, int pageSize);
+        Task<BaseResponseModel> Execute(int pageNumber, int pageSize, string? search);
     }
 }
