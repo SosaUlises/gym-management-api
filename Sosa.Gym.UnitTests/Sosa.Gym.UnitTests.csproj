@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Auth\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="xunit" Version="2.6.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sosa.Gym.Application\Sosa.Gym.Application.csproj" />
+    <ProjectReference Include="..\Sosa.Gym.Domain\Sosa.Gym.Domain.csproj" />
+    <ProjectReference Include="..\Sosa.Gym.Infraestructure\Sosa.Gym.Infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Sosa.Gym.Application")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Sosa.Gym.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d7cf6f12276d79f04af66062dc66a6436f196f5")]
-[assembly: System.Reflection.AssemblyProductAttribute("Sosa.Gym.Application")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Sosa.Gym.Application")]
+[assembly: System.Reflection.AssemblyProductAttribute("Sosa.Gym.UnitTests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Sosa.Gym.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
