@@ -8,6 +8,7 @@ COPY Sosa.Gym.Application/Sosa.Gym.Application.csproj Sosa.Gym.Application/
 COPY Sosa.Gym.Domain/Sosa.Gym.Domain.csproj Sosa.Gym.Domain/
 COPY Sosa.Gym.Common/Sosa.Gym.Common.csproj Sosa.Gym.Common/
 COPY Sosa.Gym.Infraestructure/Sosa.Gym.Infraestructure.csproj Sosa.Gym.Infraestructure/
+COPY Sosa.Gym.UnitTests/Sosa.Gym.UnitTests.csproj Sosa.Gym.UnitTests/
 
 # Restaurar dependencias
 RUN dotnet restore
