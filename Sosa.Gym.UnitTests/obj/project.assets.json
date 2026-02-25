@@ -6360,11 +6360,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.UnitTests\\Sosa.Gym.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.UnitTests\\Sosa.Gym.UnitTests.csproj",
       "projectName": "Sosa.Gym.UnitTests",
-      "projectPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.UnitTests\\Sosa.Gym.UnitTests.csproj",
+      "projectPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.UnitTests\\Sosa.Gym.UnitTests.csproj",
       "packagesPath": "C:\\Users\\ulipv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6385,14 +6385,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\Sosa.Gym.Application.csproj": {
-              "projectPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Application\\Sosa.Gym.Application.csproj"
+            "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Application\\Sosa.Gym.Application.csproj": {
+              "projectPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Application\\Sosa.Gym.Application.csproj"
             },
-            "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Domain\\Sosa.Gym.Domain.csproj": {
-              "projectPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Domain\\Sosa.Gym.Domain.csproj"
+            "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Domain\\Sosa.Gym.Domain.csproj": {
+              "projectPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Domain\\Sosa.Gym.Domain.csproj"
             },
-            "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj"
+            "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\ulipv\\Source\\Repos\\gym-management-api\\Sosa.Gym.Infraestructure\\Sosa.Gym.Infraestructure.csproj"
             }
           }
         }
