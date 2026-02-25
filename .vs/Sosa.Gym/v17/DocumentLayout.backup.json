@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0DF66D6B-8E58-4E9A-A5E1-7E130B646A2A}|Sosa.Gym.UnitTests\\Sosa.Gym.UnitTests.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.unittests\\auth\\resetpasswordcommandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF66D6B-8E58-4E9A-A5E1-7E130B646A2A}|Sosa.Gym.UnitTests\\Sosa.Gym.UnitTests.csproj|solutionrelative:sosa.gym.unittests\\auth\\resetpasswordcommandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0DF66D6B-8E58-4E9A-A5E1-7E130B646A2A}|Sosa.Gym.UnitTests\\Sosa.Gym.UnitTests.csproj|c:\\users\\ulipv\\source\\repos\\gym-management-api\\sosa.gym.unittests\\auth\\logincommandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DF66D6B-8E58-4E9A-A5E1-7E130B646A2A}|Sosa.Gym.UnitTests\\Sosa.Gym.UnitTests.csproj|solutionrelative:sosa.gym.unittests\\auth\\logincommandtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ResetPasswordCommandTests.cs",
+              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.UnitTests\\Auth\\ResetPasswordCommandTests.cs",
+              "RelativeDocumentMoniker": "Sosa.Gym.UnitTests\\Auth\\ResetPasswordCommandTests.cs",
+              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.UnitTests\\Auth\\ResetPasswordCommandTests.cs",
+              "RelativeToolTip": "Sosa.Gym.UnitTests\\Auth\\ResetPasswordCommandTests.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T01:53:16.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LoginCommandTests.cs",
               "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.UnitTests\\Auth\\LoginCommandTests.cs",
               "RelativeDocumentMoniker": "Sosa.Gym.UnitTests\\Auth\\LoginCommandTests.cs",
               "ToolTip": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.UnitTests\\Auth\\LoginCommandTests.cs",
               "RelativeToolTip": "Sosa.Gym.UnitTests\\Auth\\LoginCommandTests.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAYwCsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T01:51:13.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ForgotPasswordCommandTests.cs",
               "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.UnitTests\\Auth\\ForgotPasswordCommandTests.cs",
               "RelativeDocumentMoniker": "Sosa.Gym.UnitTests\\Auth\\ForgotPasswordCommandTests.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "Sosa.Gym.UnitTests\\Auth\\ForgotPasswordCommandTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T01:44:15.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-25T01:44:15.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IdentityMocks.cs",
               "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\gym-management-api\\Sosa.Gym.UnitTests\\Helpers\\IdentityMocks.cs",
               "RelativeDocumentMoniker": "Sosa.Gym.UnitTests\\Helpers\\IdentityMocks.cs",
